@@ -1,0 +1,166 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="First" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="571,1660" sap2010:WorkflowViewState.IdRef="First_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="44">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="40">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="First" sap:VirtualizedContainerService.HintSize="551,1560" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Web" sap:VirtualizedContainerService.HintSize="509,565" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Open https://www.amazon.in/" sap:VirtualizedContainerService.HintSize="467,473" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://www.amazon.in/">
+        <ui:OpenBrowser.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,372" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Type Into 'INPUT  twotabsearchtext...'" EmptyField="False" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_1" SendWindowMessages="False" SimulateType="True" Text="Harry Potter">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3ac35624-7f6b-4b0d-8e15-7b3f76e49d30" InformativeScreenshot="1d4858068074ea4e4acda4a5c2360613" Selector="&lt;webctrl id='twotabsearchtextbox' tag='INPUT' /&gt;" WaitForReady="COMPLETE">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+              </ui:TypeInto>
+              <ui:Click CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  nav-search-submi...'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+                <ui:Click.CursorPosition>
+                  <ui:CursorPosition OffsetX="27" OffsetY="20" Position="TopLeft" />
+                </ui:Click.CursorPosition>
+                <ui:Click.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="420ab1b1-edd3-461a-83f5-459489c85db5" InformativeScreenshot="6d55e0ec2ec4cd61e6d66789af0d0a97" Selector="&lt;webctrl id='nav-search-submit-button' tag='INPUT' /&gt;" WaitForReady="COMPLETE">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                  </ui:Target>
+                </ui:Click.Target>
+              </ui:Click>
+            </Sequence>
+          </ActivityAction>
+        </ui:OpenBrowser.Body>
+      </ui:OpenBrowser>
+    </Sequence>
+    <Sequence DisplayName="Data Scraping" sap:VirtualizedContainerService.HintSize="509,764" sap2010:WorkflowViewState.IdRef="Sequence_5">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Attach Browser 'AmazoninH Page'" sap:VirtualizedContainerService.HintSize="434,344" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="38241dc2e65b076d472d85fcd479ca9e" Selector="&lt;html app='firefox.exe' title='Amazon.in : Harry Potter' /&gt;">
+        <ui:BrowserScope.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,198" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:ExtractData DelayBetweenPagesMS="{x:Null}" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Structured Data 'DIV'" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column1' attr='text' name2='Column2' attr2='href'&gt;&lt;webctrl tag='span' idx='3' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='h2' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="ExtractData_1" MaxNumberOfResults="20" NextLinkSelector="&lt;webctrl aaname='Next→' parentid='search' tag='A' /&gt;" SimulateClick="True">
+                <ui:ExtractData.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="016296a4-4a00-4827-95ac-e7c69f32ae35" InformativeScreenshot="24e7493a4990b288055944dc29ee0763" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='search' tag='DIV' /&gt;" WaitForReady="COMPLETE">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                  </ui:Target>
+                </ui:ExtractData.Target>
+              </ui:ExtractData>
+            </Sequence>
+          </ActivityAction>
+        </ui:BrowserScope.Body>
+      </ui:BrowserScope>
+      <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="434,288" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" WorkbookPath="Workbook1.xlsx">
+        <ui:ExcelApplicationScope.Body>
+          <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,179" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:ExcelWriteRange AddHeaders="False" DataTable="[ExtractDataTable]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteRange_1" SheetName="Sheet1" StartingCell="A1" />
+            </Sequence>
+          </ActivityAction>
+        </ui:ExcelApplicationScope.Body>
+      </ui:ExcelApplicationScope>
+    </Sequence>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Bot Status" sap:VirtualizedContainerService.HintSize="509,59" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Done!&quot;]" />
+  </Sequence>
+</Activity>
