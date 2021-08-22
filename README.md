@@ -1,6 +1,7 @@
 # RPA_LAb_112_Kavya_Dhar
 
-![picture](https://github.com/Kavyaa1r112/RPA_LAb_112_Kavya_Dhar/blob/main/BrandEvo_loop.gif)
+![picture](https://github.com/MIETDevelopers/RPA_Lab_112_Kavya_Dhar/blob/main/BrandEvo_loop.gif)
+
 
 
 
